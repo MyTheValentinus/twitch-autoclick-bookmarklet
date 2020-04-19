@@ -10,8 +10,11 @@ var styles = [
     'padding: 12px'
 ].join(';');
 
-console.info('%c[Twitch bonus autoclick] Initialized!', styles);
 console.info('%cCreated by Valentin DEVILLE (https://twitter.com/MyTheValentinus)', styles);
+console.info('%c[Twitch bonus autoclick] Initialized!', styles);
+
+// Inform user
+alert('[Twitch bonus autoclick] Enabled! you need to refresh the page to disable it!');
 
 function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
