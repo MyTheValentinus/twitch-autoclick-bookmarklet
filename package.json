@@ -1,0 +1,12 @@
+{
+  "name": "twitch-autoclick-bookmarklet",
+  "version": "1.0.0",
+  "description": "Autoclik on bonus for Twitch",
+  "author": "Valentin DEVILLE",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-bookmarklet": "^1.0.0"
+  }
+}
